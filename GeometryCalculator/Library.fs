@@ -7,7 +7,7 @@ module Ellipsoid =
         module Rotational =
             let e a c =
                 sqrt(1. - a**2. / c**2.)
-        module Genral = 
+        module General = 
             open FSharp.Stats.Integration
 
             let f psi k =
@@ -36,12 +36,12 @@ module Ellipsoid =
                 2. * Math.PI * a**2. * (1. + c / (a * eValue) * asin(eValue))
 
         let generalEllipsoid a b c = 
-            let tauValue = Genral.tau a c
-            let mValue = Genral.m a b c
-            2. * Math.PI * (c**2. + (b * c**2.) / sqrt(a**2. - c**2.) * (Genral.f tauValue mValue) + b * sqrt(a**2. - c**2.) * (Genral.e tauValue mValue))
+            let tauValue = General.tau a c
+            let mValue = General.m a b c
+            2. * Math.PI * (c**2. + (b * c**2.) / sqrt(a**2. - c**2.) * (General.f tauValue mValue) + b * sqrt(a**2. - c**2.) * (General.e tauValue mValue))
 
 
-    let volume c a b =
+    let volume a b c =
         if a > 0. && b > 0. && c > 0. then
             4. / 3. * Math.PI * a * b * c
         else
