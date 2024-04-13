@@ -1,6 +1,6 @@
 # GeometryCalculator
 
-![NuGet Downloads](https://img.shields.io/nuget/dt/MS.GeometryCalculator?label=NuGet) ![GitHub License](https://img.shields.io/github/license/MAtt5816/geometry-calculator) ![NuGet Version](https://img.shields.io/nuget/v/MS.GeometryCalculator) ![NuGet Version](https://img.shields.io/nuget/vpre/MS.GeometryCalculator)
+![NuGet Downloads](https://img.shields.io/nuget/dt/GeometryCalc.GeometryCalculator?label=NuGet) ![GitHub License](https://img.shields.io/github/license/MAtt5816/geometry-calculator) ![NuGet Version](https://img.shields.io/nuget/v/GeometryCalc.GeometryCalculator) ![NuGet Version](https://img.shields.io/nuget/vpre/GeometryCalc.GeometryCalculator)
 
 
 

@@ -4,6 +4,14 @@
     <TargetFramework>net6.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <RootNamespace>BMeas</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>GeometryCalc.GeometryCalculator</PackageId>
+    <Authors>Mateusz Szewczyk &lt;MAtt5816&gt;</Authors>
+    <Description>GeometryCalculator - a simple calculator of basic parameters of geometric figures and solids.</Description>
+    <Copyright>Mateusz Szewczyk &lt;MAtt5816&gt;</Copyright>
+    <PackageLicenseUrl>https://github.com/MAtt5816/geometry-calculator/blob/1.0.0/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/MAtt5816/geometry-calculator</RepositoryUrl>
+    <PackageTags>calculator;solids;figures;figures-calculator</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
