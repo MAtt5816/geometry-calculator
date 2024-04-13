@@ -8,6 +8,9 @@
 
   <ItemGroup>
     <Compile Include="Library.fs" />
+    <Content Include="..\README.md">
+      <Link>README.md</Link>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
