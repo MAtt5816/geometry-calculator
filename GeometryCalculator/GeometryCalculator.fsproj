@@ -11,7 +11,9 @@
     <Copyright>Mateusz Szewczyk &lt;MAtt5816&gt;</Copyright>
     <PackageLicenseUrl>https://github.com/MAtt5816/geometry-calculator/blob/1.0.0/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/MAtt5816/geometry-calculator</RepositoryUrl>
-    <PackageTags>calculator;solids;figures;figures-calculator</PackageTags>
+    <PackageTags>calculator;solids;figures;figures-calculator;ellipsoid;sphere</PackageTags>
+    <Version>1.0.1</Version>
+    <Title>GeometryCalculator</Title>
   </PropertyGroup>
 
   <ItemGroup>
